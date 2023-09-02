@@ -1,0 +1,13 @@
+1.1D convolution can be used to identify edges in an image by applying a filter (kernel) that highlights rapid changes in pixel intensity. When convolving the filter with the image, it accentuates areas where there are sharp transitions in intensity, which correspond to edges in the image.
+
+3.
+Why does the validation error increase when the number of epochs is increased? Explain how you can modify the training process to stop that from happening.
+
+•Validation error increases due to overfitting, where the model fits the training data noise.
+•To prevent this, use techniques like early stopping, regularization, dropout, data augmentation, or reduce model complexity.
+
+Explain how the mini-batch SGD (Stochastic Gradient Descent) algorithm can converge faster than the batch Gradient Descent algorithm.
+
+•Mini-batch SGD converges faster due to computational efficiency, frequent updates, stochastic nature, and a regularization effect.
+
+
